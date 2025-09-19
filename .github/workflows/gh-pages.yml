@@ -3,7 +3,12 @@ name: Deploy React Frontend to GitHub Pages
 on:
   push:
     branches:
-      - main  # Set to your default branch if not 'main'
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
@@ -17,14 +22,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build production site
+      - name: Build React app
         run: npm run build
 
       - name: Deploy to GitHub Pages
