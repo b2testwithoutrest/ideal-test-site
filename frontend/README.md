@@ -13,7 +13,7 @@ npm start
 
 ## Deploy
 
-- Build and deploy the `build/` folder to GitHub Pages, Netlify, or Vercel!
+- Build and deploy the `build/` folder to GitHub Pages, Netlify, or Vercel.
 
 ## Features
 
