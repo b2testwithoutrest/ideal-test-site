@@ -2,6 +2,7 @@
   "name": "ideal-test-site-frontend",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://b2testwithoutrest.github.io/ideal-test-site/",
   "dependencies": {
     "bootstrap": "^5.3.0",
     "react": "^18.0.0",
