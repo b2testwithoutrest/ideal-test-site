@@ -7,7 +7,7 @@ import AdminPanel from "./components/AdminPanel";
 import DarkModeToggle from "./components/DarkModeToggle";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const API_ROOT = "http://localhost:4000/api"; // Change to your backend URL when deployed
+const API_ROOT = "https://ideal-test-site.onrender.com "; // Change to your backend URL when deployed
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
